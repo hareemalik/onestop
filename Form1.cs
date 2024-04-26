@@ -10,6 +10,7 @@ namespace WinFormsApp3
         private void checkbox(object sender, EventArgs e)
         {
             passwordbox.PasswordChar = showpasscheckbox.Checked ? '\0' : '*';
+           
         }
 
         private void loginButton_Click(object sender, EventArgs e)
